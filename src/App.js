@@ -1,9 +1,9 @@
 import './App.css';
 import { useState } from 'react';
-import QuantityFruits from './QuantifyFruits';
-import TotalOut from './TotalOut'
-import FormOutEntry from './FormOutEntry'
-import DisplayAll from './DisplayAll';
+import QuantityFruits from './components/QuantifyFruits';
+import TotalOut from './components/TotalOut'
+import FormOutEntry from './components/FormOutEntry'
+import DisplayAll from './components/DisplayAll';
 function App() {
   const [transactions, setTransactions ] = useState([
     {name: "banana", quantity: 100, price: 5 },
